@@ -10,7 +10,7 @@ from aiogram.enums import ParseMode
 from aiogram.types import Message, LabeledPrice, PreCheckoutQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 # Получаем токен из переменных окружения
-TOKEN = "7741979722:AAEBzPjM4HqoTdNajwdv2plXvdraARgMbhQ"
+TOKEN = ""
 
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
